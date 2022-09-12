@@ -6,8 +6,11 @@
 
 body {
     background-color: #d9dcd6;
+    /* if I put color property here, will it apply to whole page? */
+    /* declare font in body? */
 }
 
+/* all header classes can be changed to type selector */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,16 +23,19 @@ body {
     font-size: 48px;
 }
 
+/* change to a darker shade to increace visibility? */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* change div to nav */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    /* should nav be fixed? */
 }
 
 .header div ul {
@@ -46,10 +52,13 @@ a {
     text-decoration: none;
 }
 
+/* this should come after consolidated h2 rules */
 p {
     font-size: 16px;
+    /* increase font size? */
 }
 
+/* move up */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +68,19 @@ p {
     background-position: center;
 }
 
+/* .content/main rules should go here  */
+
+/* unique .search-engine-optimization rules should go here (Change to id selector and delete class) */
+
+/* unique .online-reputation-management should go here (Change to id selector and delete class) */
+
+/* unique .social-media-marketing should go here (Change to id selector and delete class) */
+
+/* consolidated h2 and img rules should go here, img then h2 */
+
+/* p rules should go here */
+
+/* move after img rules but before h2 rules */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +91,14 @@ p {
     margin-left: 25px;
 }
 
+/* move up */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* move down */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +110,7 @@ p {
     background-color: #2589bd;
 }
 
+/* consolidate */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,7 +125,9 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* consolidate */
 
+/* consolidate - change name of class*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,7 +142,9 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+/* consolidate */
 
+/* consolidate */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +162,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* consolidate */
 
+/* consolidate, change name of class, move up */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +191,9 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* consolidate, change name of class, move up */
 
+/* consolidate, change name of class, move up */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +205,9 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+/* consolidate, change name of class, move up */
 
+/* h2 - move up, consolidate(change name of class) */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,10 +222,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* h2 - move up, consolidate(change name of class) */
 
+/* change to type selector */
 .footer {
     padding: 30px;
+    /* what does cleaer do? */
     clear: both;
+    /* declare font in body? */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
