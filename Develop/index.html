@@ -5,21 +5,21 @@
     <meta charset="UTF-8" />
     <!-- add more meta tags? -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- fix title -->
-    <title>website</title>
+    <!-- fixed title -->
+    <title>Horiseon</title>
 </head>
 
 <body>
-    <!-- change following div to header element -->
-    <div class="header">
-        <!-- why is there a span in this heading? -->
+    <!-- done - changed div to header element -->
+    <header class="header">
+        <!-- span in heading to make "seo" stand out, see CSS -->
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <!-- change this div to a nav attribute -->
-        <div>
+        <!-- done - changed this div to a nav attribute -->
+        <nav>
             <ul>
                 <!-- do these need names? -->
                 <li>
-                    <!-- fix this link -->
+                    <!-- done - fixed this link -->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -29,15 +29,15 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <!-- change div or give role? -->
     <div class="hero"></div>
-    <!-- change to main attribute -->
-    <div class="content">
-        <!-- use section elements instead of divs? -->
+    <!-- done - changed to main attribute -->
+    <main class="content">
+        <!-- done - used section elements instead of divs to improve accessibility -->
         <!-- change class so the following three divs match, will consolidating styles easier -->
-        <div class="search-engine-optimization">
+        <section id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -45,9 +45,9 @@
                 travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
                 your visibility and find the right customers for your business.
             </p>
-        </div>
-        <!-- Why a matching class and id? -->
-        <div id="online-reputation-management" class="online-reputation-management">
+        </section>
+        <!-- change class to match -->
+        <section id="online-reputation-management" class="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -55,8 +55,9 @@
                 internet connection to say whatever they want about your business. Online Reputation Management gives
                 you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        </section>
+        <!-- change class to match -->
+        <section id="social-media-marketing" class="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -64,10 +65,10 @@
                 determine which platforms are suited to your brand, using analytics to find the right markets and
                 increase your lead generation.
             </p>
-        </div>
-    </div>
+        </section>
+    </main>
     <!-- This div isn't clearly labeled on the page. Add a heading? -->
-    <div class="benefits">
+    <section class="benefits">
         <!-- change name of following classes so they match -->
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -94,14 +95,14 @@
             </p>
         </div>
         <!-- change name of preceeding classes so they match -->
-    </div>
-    <!-- change to footer element -->
-    <div class="footer">
+    </section>
+    <!-- done - change to footer element -->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
