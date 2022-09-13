@@ -2,21 +2,21 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* add scroll behavior? */
+    /* done - added scroll behavior */
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: #d9dcd6;
-    /* if I put color property here, will it apply to whole page? */
-    /* declare font in body? */
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* done - all .header classes changed to type selector */
+/* header styling start */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
 header h1 {
@@ -24,19 +24,17 @@ header h1 {
     font-size: 48px;
 }
 
-/* change to a darker shade to increace visibility? */
 header h1 .seo {
-    color: #d9dcd6;
+    color: #939491;
+    /* changed to a darker hue to increace visibility */
 }
 
-/* done - changed div to nav */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    /* should nav be fixed? */
 }
 
 header nav ul {
@@ -52,14 +50,8 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* header styling end */
 
-/* this should come after consolidated h2 rules */
-p {
-    font-size: 16px;
-    /* increase font size? */
-}
-
-/* move up */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,19 +61,24 @@ p {
     background-position: center;
 }
 
-/* .content/main rules should go here  */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
-/* unique .search-engine-optimization rules should go here (Change to id selector and delete class) */
+/* .services styling starts */
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
 
-/* unique .online-reputation-management should go here (Change to id selector and delete class) */
+.services img {
+    max-height: 200px;
+}
 
-/* unique .social-media-marketing should go here (Change to id selector and delete class) */
-
-/* consolidated h2 and img rules should go here, img then h2 */
-
-/* p rules should go here */
-
-/* move after img rules but before h2 rules */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -92,14 +89,19 @@ p {
     margin-left: 25px;
 }
 
-/* move up */
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* . services styling ends */
+
+
+p {
+    font-size: 16px;
+    /* increase font size? */
 }
 
-/* move down */
+/* benefits stylying starts */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -107,134 +109,37 @@ main {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-/* consolidate */
-.benefit-lead {
+.benefit-list {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* consolidate */
-
-/* consolidate - change name of class*/
-.benefit-lead h3 {
+.benefit-list h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* consolidate */
-
-/* consolidate */
-.benefit-lead img {
+.benefit-list img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* benefits styling ends */
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* consolidate */
-
-/* consolidate, change name of class, move up */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* consolidate, change name of class, move up */
-
-/* consolidate, change name of class, move up */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-/* consolidate, change name of class, move up */
-
-/* h2 - move up, consolidate(change name of class) */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* h2 - move up, consolidate(change name of class) */
-
-/* change to type selector */
+/* footer styling starts */
 footer {
     padding: 30px;
-    /* what does cleaer do? */
+    /* what does clear do? */
     clear: both;
-    /* declare font in body? */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: #000000;
 }
 
 footer h2 {
     font-size: 20px;
 }
+/* footer styling ends */
