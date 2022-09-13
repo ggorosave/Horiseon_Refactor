@@ -131,7 +131,7 @@ p {
 /* footer styling */
 footer {
     padding: 30px;
-    /* what does clear do? */
+    /* Can this be deleted? */
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
