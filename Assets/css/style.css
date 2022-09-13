@@ -6,19 +6,17 @@
     scroll-behavior: smooth;
 }
 
-/* body styling */
 body {
     background-color: #d9dcd6;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* header styling*/
+/* header styling start */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #1b445a;
-    /* adjusted hue for better contrast */
+    background-color: #2a607c;
 }
 
 header h1 {
@@ -52,23 +50,24 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* header styling end */
 
-/* figure styling */
-figure img {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    object-fit: cover;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-/* main styling */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* .services styling */
+/* .services styling starts */
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -94,14 +93,15 @@ main {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* . services styling ends */
 
-/* should this go before or after the main styling */
+
 p {
     font-size: 16px;
     /* increase font size? */
 }
 
-/* benefits stylying */
+/* benefits stylying starts */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -109,8 +109,7 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    background-color: #195c80;
-     /* adjusted hue for better contrast */
+    background-color: #2589bd;
 }
 
 .benefit-list {
@@ -127,8 +126,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* benefits styling ends */
 
-/* footer styling */
+
+/* footer styling starts */
 footer {
     padding: 30px;
     /* Can this be deleted? */
@@ -141,3 +142,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* footer styling ends */

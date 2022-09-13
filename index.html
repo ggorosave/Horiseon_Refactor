@@ -3,24 +3,28 @@
 
 <head>
     <meta charset="UTF-8" />
+<<<<<<< HEAD:index.html
     <meta name="description" content="Horiseon is a digital media marketing consultin firm that will help you build the best websites.">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./Assets/css/style.css">
+=======
+    <!-- add more meta tags? -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+>>>>>>> parent of 2e68afc (Merge pull request #4 from ggorosave/feature/editing-round2):Develop/index.html
     <title>Horiseon</title>
 </head>
 
-<!-- 1) changed divs to semantic elements (header, nav, section, footer) to improve accessibilty -->
-<!-- 2) gave imgs alt attributes -->
-<!-- 3) changed figure img so it's called through HTML -->
-<!-- 4) deleted superfluous up classes -->
+<!-- changed divs to semantic elements (header, nav, section, footer) to improve accessibilty -->
+<!-- give imgs alt attributes -->
 
 <body>
 
-    <header>
-        <!-- span makes "seo" stand out, see CSS for edits -->
+    <header class="header">
+        <!-- span in heading to make "seo" stand out, see CSS -->
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
             <ul>
+                <!-- do these need names? -->
                 <li>
                     <!-- fixed this link -->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -34,11 +38,16 @@
             </ul>
         </nav>
     </header>
+<<<<<<< HEAD:index.html
     <figure>
         <img src="./assets/images/digital-marketing-meeting.jpg" alt="a meeting about digital marketing" />
         <!-- edited so img is called in HTML rather than CSS and given alt -->
+=======
+    <figure class="hero">
+        <!-- change CSS, remove background image and link here as img element -->
+>>>>>>> parent of 2e68afc (Merge pull request #4 from ggorosave/feature/editing-round2):Develop/index.html
     </figure>
-    <main>
+    <main class="content">
         <!-- class changed to "services" to simplify styling -->
         <section id="search-engine-optimization" class="services">
             <img src="./assets/images/search-engine-optimization.jpg" alt="a notebook that shows the importance of search engine optimization" class="float-left" />
@@ -70,7 +79,11 @@
     </main>
     <!-- This div isn't clearly labeled on the page. Add a heading? -->
     <section class="benefits">
+<<<<<<< HEAD:index.html
         <!-- make this an unordered list? -->
+=======
+
+>>>>>>> parent of 2e68afc (Merge pull request #4 from ggorosave/feature/editing-round2):Develop/index.html
         <div class="benefit-list">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="lead generation" />
@@ -97,7 +110,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
