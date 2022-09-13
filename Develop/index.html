@@ -4,21 +4,23 @@
 <head>
     <meta charset="UTF-8" />
     <!-- add more meta tags? -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon</title>
 </head>
 
-<!-- changed divs to semantic elements (header, nav, section, footer) to improve accessibilty -->
-<!-- give imgs alt attributes -->
+<!-- 1) changed divs to semantic elements (header, nav, section, footer) to improve accessibilty -->
+<!-- 2) gave imgs alt attributes -->
+<!-- 3) changed figure img so it's called through HTML -->
+<!-- 4) deleted superfluous up classes -->
 
 <body>
 
-    <header class="header">
-        <!-- span in heading to make "seo" stand out, see CSS -->
+    <header>
+        <!-- span makes "seo" stand out, see CSS for edits -->
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
             <ul>
-                <!-- do these need names? -->
                 <li>
                     <!-- fixed this link -->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -32,10 +34,11 @@
             </ul>
         </nav>
     </header>
-    <figure class="hero">
-        <!-- change CSS, remove background image and link here as img element -->
+    <figure>
+        <img src="./assets/images/digital-marketing-meeting.jpg" alt="a picture of a meeting about digital marketing" />
+        <!-- edited so img is called in HTML rather than CSS and given alt -->
     </figure>
-    <main class="content">
+    <main>
         <!-- class changed to "services" to simplify styling -->
         <section id="search-engine-optimization" class="services">
             <img src="./assets/images/search-engine-optimization.jpg" alt="a picture of notebook with different elements of a website drawn in it" class="float-left" />
@@ -67,7 +70,6 @@
     </main>
     <!-- This div isn't clearly labeled on the page. Add a heading? -->
     <section class="benefits">
-
         <div class="benefit-list">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="a picture of a gear and an arrow pointing to money" />
@@ -95,7 +97,7 @@
 
     </section>
 
-    <footer class="footer">
+    <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
