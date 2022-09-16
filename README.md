@@ -18,3 +18,7 @@ This project is a challenge from the U of A coding boot camp. In this project, I
 While not necessarily a priority to improving accessibility, a `<meta>` tag for viewport and description was added for better SEO.
 
 Through the process of trying to deploy the website, I discovered that GitHub pages did not look for the index file in the Development folder and instead called the README file. In order to fix this problem, I tried several solutions including using a dummy HTML page to lead to the index file in the Development folder. However, these attempted fixes caused many other issues. I decided that moving the index file and assets folder to the root folder would be the simplest solution.
+
+[Refactored Horiseon Website](https://ggorosave.github.io/M1-Challenge/) 
+
+![Mock-up of Horiseon website](./assets/images/01-html-css-git-homework-demo.png)

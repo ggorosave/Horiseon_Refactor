@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* added scroll behavior */
+    /*Aadded scroll behavior */
     scroll-behavior: smooth;
 }
 
@@ -18,7 +18,7 @@ header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #1b445a;
-    /* adjusted hue for better contrast */
+    /* Adjusted hue for better contrast */
 }
 
 header h1 {
@@ -28,7 +28,7 @@ header h1 {
 
 header h1 .seo {
     color: #939491;
-    /* changed to a darker hue to increace visibility */
+    /* Changed to a darker hue to increace visibility */
 }
 
 header nav {
@@ -53,7 +53,7 @@ a {
     text-decoration: none;
 }
 
-/* figure styling */
+/* feature image styling */
 figure img {
     height: 800px;
     width: 100%;
@@ -70,7 +70,7 @@ main {
 
 p {
     font-size: 18px;
-    /* increased font size */
+    /* Increased font size */
 }
 
 /* .services styling */
@@ -109,7 +109,7 @@ p {
     width: 20%;
     height: 100%;
     background-color: #195c80;
-    /* adjusted hue for better contrast */
+    /* Adjusted hue for better contrast */
 }
 
 .benefit-list {
