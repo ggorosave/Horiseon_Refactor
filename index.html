@@ -3,29 +3,31 @@
 
 <head>
     <meta charset="UTF-8" />
+    <!-- Added two meta elements to improve SEO -->
     <meta name="description"
         content="Horiseon is a digital media marketing consultin firm that will help you build the best websites.">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Changed title -->
     <title>Horiseon</title>
 </head>
 
 <!-- 
-    1) changed divs to semantic elements (header, nav, section, footer) to improve accessibilty 
-    2) gave imgs alt attributes
-    3) changed figure img so it's called through HTML
-    4) deleted superfluous up classes
+    1) Changed divs to semantic elements (header, nav, section, footer) to improve accessibilty 
+    2) Gave imgs alt attributes
+    3) Changed figure img so it's called through HTML
+    4) Deleted superfluous up classes
 -->
 
 <body>
 
     <header>
-        <!-- span makes "seo" stand out, see CSS for edits -->
+        <!-- This span makes "seo" stand out, see CSS for edits -->
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
             <ul>
                 <li>
-                    <!-- fixed this link -->
+                    <!-- Fixed this link -->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -38,11 +40,11 @@
         </nav>
     </header>
     <figure>
+        <!-- Edited so image is called in HTML rather than CSS and given an alt atrribute -->
         <img src="./assets/images/digital-marketing-meeting.jpg" alt="a meeting about digital marketing" />
-        <!-- edited so img is called in HTML rather than CSS and given alt -->
     </figure>
     <main>
-        <!-- class changed to "services" to simplify styling -->
+        <!-- Class changed to "services" to simplify styling -->
         <section id="search-engine-optimization" class="services">
             <img src="./assets/images/search-engine-optimization.jpg"
                 alt="a notebook that shows the importance of search engine optimization" class="float-left" />
@@ -76,6 +78,7 @@
     </main>
 
     <section class="benefits">
+        <!-- Class changed to "benefit-list" to simplify styling -->
         <aside class="benefit-list">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="lead generation" />
