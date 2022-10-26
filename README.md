@@ -1,4 +1,4 @@
-# 01 Module 1 Challenge: Horiseon Websie Code Refactor
+# 01 Module 1 Challenge: Horiseon Website Code Refactor
 
 ## Description
 
